@@ -26,7 +26,7 @@ const Introduction: React.FC = () => {
 
         <p className="mt-16 text-lg">
           I am Di Heng, currently a Year 3 Computer Engineering student<br />
-          studying at Singapore's NTU. I aspire to be a <strong>quantitative developer</strong>.<br />
+          studying at Singapore NTU. I aspire to be a <strong>quantitative developer</strong>.<br />
           This website serves as my academic timeline and a centralized repository.
         </p>
       </div>

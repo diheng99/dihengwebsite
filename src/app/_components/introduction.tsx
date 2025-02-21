@@ -12,15 +12,18 @@ const Introduction: React.FC = () => {
           Welcome
         </h1>
 
-        <div className="relative flex items-center mt-12 h-12">
-          <a href="https://github.com/diheng99" target="_blank" rel="noopener noreferrer" className="h-full flex">
-            <FontAwesomeIcon icon={faGithub} className="ml-8" />
+        <div className="relative flex items-center mt-12 h-24">
+          <a href="https://github.com/diheng99" target="_blank" rel="noopener noreferrer" className="h-full flex flex-col items-center">
+            <FontAwesomeIcon icon={faGithub} className="h-1/2" />
+            <p className="mt-4 ">Github</p>
           </a>
-          <a href="https://www.linkedin.com/in/dihengchew/" target="_blank" rel="noopener noreferrer" className="h-full flex">
-            <FontAwesomeIcon icon={faLinkedin} className="ml-8" />
+          <a href="https://www.linkedin.com/in/dihengchew/" target="_blank" rel="noopener noreferrer" className="ml-8 h-full flex flex-col items-center">
+            <FontAwesomeIcon icon={faLinkedin} className="h-1/2" />
+            <p className="mt-4">LinkedIn</p>
           </a>
-          <a href="https://www.instagram.com/dihennnng/" target="_blank" rel="noopener noreferrer" className="h-full flex">
-            <FontAwesomeIcon icon={faInstagram} className="ml-8" />
+          <a href="https://www.instagram.com/dihennnng/" target="_blank" rel="noopener noreferrer" className="ml-8 h-full flex flex-col items-center">
+            <FontAwesomeIcon icon={faInstagram} className="h-1/2" />
+            <p className="mt-4">Instagram</p>
           </a>
         </div>
 

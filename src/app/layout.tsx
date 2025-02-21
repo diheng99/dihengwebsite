@@ -7,6 +7,7 @@ import { TRPCReactProvider } from "~/trpc/react";
 
 export const metadata: Metadata = {
   title: "Diheng's Website",
+  icons: "ProfilePicture.jpeg"
 };
 
 export default function RootLayout({

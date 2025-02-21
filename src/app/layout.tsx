@@ -5,6 +5,8 @@ import { type Metadata } from "next";
 
 import { TRPCReactProvider } from "~/trpc/react";
 
+import { Analytics } from "@vercel/analytics/react"
+
 export const metadata: Metadata = {
   title: "Diheng's Website",
   icons: "ProfilePicture.jpeg"
@@ -17,6 +19,7 @@ export default function RootLayout({
     <html lang="en" className={`${GeistSans.variable}`}>
       <body>
         <TRPCReactProvider>{children}</TRPCReactProvider>
+        <Analytics />
       </body>
     </html>
   );

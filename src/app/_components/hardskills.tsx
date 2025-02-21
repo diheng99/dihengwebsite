@@ -9,7 +9,7 @@ const HardSkills: React.FC = () => {
             <div className="flex flex-row text-center mb-6">
                 <h3 className="text-2xl font-semibold">Coding Skills</h3>
                 <div className="flex ml-8 flex-wrap">
-                    <span className="ml-12 text-xl flex">JS <FontAwesomeIcon icon={faJsSquare} className="flex h-8 w-8 text-yellow-400" /></span>
+                    <span className="ml-12 text-xl flex">JavaScript <FontAwesomeIcon icon={faJsSquare} className="flex h-8 w-8 text-yellow-400" /></span>
                     <span className="ml-12 text-xl flex items-center">TypeScript</span> 
                     <span className="ml-12 text-xl flex">JAVA <FontAwesomeIcon icon={faJava} className="flex h-8 w-8s text-orange-500" /></span>
                     <span className="ml-12 text-xl flex">PYTHON <FontAwesomeIcon icon={faPython} className="flex h-8 w-8 text-blue-600 text-3xl" /></span>

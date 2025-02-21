@@ -13,23 +13,16 @@ const Introduction: React.FC = () => {
         </h1>
 
         <div className="relative flex items-center mt-12 h-12">
-          <div className="flex justify-center items-center w-12 h-12">
-            <a href="https://github.com/diheng99" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} size="2x" />
-            </a>
-          </div>
-          <div className="flex justify-center items-center w-12 h-12">
-            <a href="https://www.linkedin.com/in/dihengchew/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} size="2x" />
-            </a>
-          </div>
-          <div className="flex justify-center items-center w-12 h-12">
-            <a href="https://www.instagram.com/dihennnng/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
-            </a>
-          </div>
+          <a href="https://github.com/diheng99" target="_blank" rel="noopener noreferrer" className="h-full flex">
+            <FontAwesomeIcon icon={faGithub} className="ml-8" />
+          </a>
+          <a href="https://www.linkedin.com/in/dihengchew/" target="_blank" rel="noopener noreferrer" className="h-full flex">
+            <FontAwesomeIcon icon={faLinkedin} className="ml-8" />
+          </a>
+          <a href="https://www.instagram.com/dihennnng/" target="_blank" rel="noopener noreferrer" className="h-full flex">
+            <FontAwesomeIcon icon={faInstagram} className="ml-8" />
+          </a>
         </div>
-
 
         <p className="mt-16 text-lg">
           I am Di Heng, currently a Year 3 Computer Engineering student<br />
@@ -39,8 +32,8 @@ const Introduction: React.FC = () => {
       </div>
 
       <div className="flex h-64 w-64 justify-center">
-        <Image
-          src="/ProfilePicture.jpeg"
+        <Image  
+          src="/ProfilePicture.jpeg"  
           alt="Di Heng's Profile Picture"
           width={280}
           height={280}

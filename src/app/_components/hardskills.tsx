@@ -11,8 +11,8 @@ const HardSkills: React.FC = () => {
                 <div className="flex ml-8 flex-wrap">
                     <span className="ml-12 text-xl flex">JavaScript <FontAwesomeIcon icon={faJsSquare} className="flex h-8 w-8 text-yellow-400" /></span>
                     <span className="ml-12 text-xl flex items-center">TypeScript</span> 
-                    <span className="ml-12 text-xl flex">JAVA <FontAwesomeIcon icon={faJava} className="flex h-8 w-8s text-orange-500" /></span>
-                    <span className="ml-12 text-xl flex">PYTHON <FontAwesomeIcon icon={faPython} className="flex h-8 w-8 text-blue-600 text-3xl" /></span>
+                    <span className="ml-12 text-xl flex">Java <FontAwesomeIcon icon={faJava} className="flex h-8 w-8s text-orange-500" /></span>
+                    <span className="ml-12 text-xl flex">Python <FontAwesomeIcon icon={faPython} className="flex h-8 w-8 text-blue-600 text-3xl" /></span>
                     <span className="ml-12 text-xl flex">HTML <FontAwesomeIcon icon={faHtml5} className="flex h-8 w-8 text-red-500 text-3xl" /></span>
                     <span className="ml-12 text-xl flex items-center">
                         Scala <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Scala-full-color.svg" alt="Scala Logo" className="h-8 w-8" />

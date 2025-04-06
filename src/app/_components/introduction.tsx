@@ -29,7 +29,7 @@ const Introduction: React.FC = () => {
 
         <p className="mt-16 text-lg">
           I am Di Heng, Chew, currently a Year 3 Computing student<br />
-          studying at Singapore's NTU. I aspire to be a <strong>quantitative developer/researcher</strong>.<br />
+          studying at Singapore NTU. I aspire to be a <strong>quantitative developer/researcher</strong>.<br />
           This website serves as my academic journey and a retrospective of my professional work.
         </p>
       </div>

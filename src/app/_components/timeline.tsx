@@ -22,13 +22,22 @@ const TimeLine: React.FC = () => {
       title: "Quant Research at WorldQuant", 
       description: "Develop quantitative alphas to simulate investment returns" 
     },  
-    { date: "2024 (Jan - May)", title: "Year 2 Semester 2" },
+    { date: "2024 (Jan - May)", 
+      title: "Year 2 Semester 2" 
+    },
     { 
       date: "2024 (Jun - Dec)", 
       title: "Internship at Singapore's Government Investment Corporation",
       description: "Enhance ETL process for Investment Risk and Credit Risk projects"
     },
-    { date: "2025 (Jan - May)", title: "Exchange Student in the United States" },
+    { date: "2025 (Jan - May)", 
+      title: "Exchange Student in the United States" 
+    },
+    {
+      date: "2025 (June - Dec)", 
+      title: "Upcoming Project",
+      description: "Generative AI and Quant Finance for Wealth Management / Stock trading strategy based on financial report data"
+    }
   ];
 
   return (

@@ -34,9 +34,9 @@ const TimeLine: React.FC = () => {
       title: "Exchange Student in the United States" 
     },
     {
-      date: "2025 (June - Dec)", 
+      date: "2025 - 2026 (June - May)", 
       title: "Upcoming Project",
-      description: "Generative AI and Quant Finance for Wealth Management / Stock trading strategy based on financial report data"
+      description: "Generative AI and Quant Finance for Wealth Management"
     }
   ];
 

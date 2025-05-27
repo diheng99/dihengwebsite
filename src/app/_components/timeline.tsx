@@ -35,8 +35,8 @@ const TimeLine: React.FC = () => {
     },
     {
       date: "2025 - 2026 (June - May)", 
-      title: "Upcoming Project",
-      description: "Generative AI and Quant Finance for Wealth Management"
+      title: "Generative AI and Quant Finance for Wealth Management",
+      description: "Over 65% of equity fund managers underperform the S&P 500, this project explores how Gen AI can assist by benchmarking portfolios, explaining performance gaps and guiding smarter investment decisions"
     }
   ];
 
